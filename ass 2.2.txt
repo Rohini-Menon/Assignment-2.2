@@ -1,0 +1,41 @@
+1.HDFS:
+
+
+=>It is one of the core component of Hadoop used for the storage of huge amounts of files.
+
+=> It provides scalablity,fault-tolerant storage of files.
+
+=> Reduces the cost.
+
+=> The HDFS software detects and compensates for hardware issues, including disk
+   problems and server failure.
+
+=> The files stored are decomposed into blocks which are then replicated on more 
+   than one of the servers.
+
+=> The replication provides both fault-tolerance and performance.
+
+2.HADOOP CLUSTER:
+
+
+=> They can be viewed as a collection of a no. of loosely coupled computers connected together by a network.
+
+=> They were designed for storing and analyzing huge amounts of unstructured data in a distributed environment. 
+
+=> These clusters are cost-Efficient as theyrun on low cost computers.
+
+=> With the introduction of hadoop clusters,the data reading speed and the time taken to read TB's of data is reduced.
+
+
+3.HDFS Blocks
+
+=> Hadoop distributed file system  stores the data in terms of blocks each of which is 128 MB.
+
+=> Since the blocks are of fixed size,it is easy to calculate the number of blocks that can be stored on a disk.
+
+=> The file will occupy the block storage only if the size of the file is less than that of the block size.
+
+=> Since they are divided into a no. of blocks HDFS ensures  fault tolerance and high availability.
+
+=> The data in these blocks are stored in a contigous manner.
+ 
